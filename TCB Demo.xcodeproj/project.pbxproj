@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6179C21374CB7200F95EF0 /* TCBProjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6179C11374CB7200F95EF0 /* TCBProjectInfo.m */; };
+		5A6179C71374CD9E00F95EF0 /* TCBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6179C61374CD9E00F95EF0 /* TCBWebViewController.m */; };
+		5A6179D51374E29E00F95EF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6179D41374E29E00F95EF0 /* QuartzCore.framework */; };
+		5A6179D81374E69200F95EF0 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6179D71374E69200F95EF0 /* AppDelegate_iPad.m */; };
+		5A6179DB1374E85000F95EF0 /* TCBSplashScreen_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6179DA1374E85000F95EF0 /* TCBSplashScreen_iPad.m */; };
+		5A6179DF1374E95500F95EF0 /* TitleListViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6179DE1374E95500F95EF0 /* TitleListViewController_iPad.m */; };
+		5A6179E21374EEE200F95EF0 /* ProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6179E11374EEE200F95EF0 /* ProjectDetailViewController.m */; };
+		5AB97E6B1374A4940075FE9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB97E6A1374A4940075FE9C /* UIKit.framework */; };
+		5AB97E6D1374A4940075FE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB97E6C1374A4940075FE9C /* Foundation.framework */; };
+		5AB97E6F1374A4940075FE9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB97E6E1374A4940075FE9C /* CoreGraphics.framework */; };
+		5AB97E751374A4940075FE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB97E731374A4940075FE9C /* InfoPlist.strings */; };
+		5AB97E781374A4940075FE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97E771374A4940075FE9C /* main.m */; };
+		5AB97E7F1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97E7E1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.m */; };
+		5AB97E821374A4940075FE9C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB97E801374A4940075FE9C /* MainWindow_iPhone.xib */; };
+		5AB97E891374A4940075FE9C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB97E871374A4940075FE9C /* MainWindow_iPad.xib */; };
+		5AB97E931374AC510075FE9C /* TitleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97E911374AC510075FE9C /* TitleListViewController.m */; };
+		5AB97E9A1374B8740075FE9C /* TCBSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB97E991374B8740075FE9C /* TCBSplashScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A6179C01374CB7200F95EF0 /* TCBProjectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBProjectInfo.h; sourceTree = "<group>"; };
+		5A6179C11374CB7200F95EF0 /* TCBProjectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBProjectInfo.m; sourceTree = "<group>"; };
+		5A6179C41374CCE700F95EF0 /* TCBWebViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBWebViewControllerDelegate.h; sourceTree = "<group>"; };
+		5A6179C51374CD9E00F95EF0 /* TCBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBWebViewController.h; sourceTree = "<group>"; };
+		5A6179C61374CD9E00F95EF0 /* TCBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBWebViewController.m; sourceTree = "<group>"; };
+		5A6179D41374E29E00F95EF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5A6179D61374E69200F95EF0 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		5A6179D71374E69200F95EF0 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		5A6179D91374E85000F95EF0 /* TCBSplashScreen_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBSplashScreen_iPad.h; sourceTree = "<group>"; };
+		5A6179DA1374E85000F95EF0 /* TCBSplashScreen_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBSplashScreen_iPad.m; sourceTree = "<group>"; };
+		5A6179DD1374E95500F95EF0 /* TitleListViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleListViewController_iPad.h; sourceTree = "<group>"; };
+		5A6179DE1374E95500F95EF0 /* TitleListViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleListViewController_iPad.m; sourceTree = "<group>"; };
+		5A6179E01374EEE200F95EF0 /* ProjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDetailViewController.h; sourceTree = "<group>"; };
+		5A6179E11374EEE200F95EF0 /* ProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDetailViewController.m; sourceTree = "<group>"; };
+		5AB97E661374A4940075FE9C /* TCB Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCB Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB97E6A1374A4940075FE9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AB97E6C1374A4940075FE9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AB97E6E1374A4940075FE9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AB97E721374A4940075FE9C /* TCB Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TCB Demo-Info.plist"; path = "TCB Demo/TCB Demo-Info.plist"; sourceTree = "<group>"; };
+		5AB97E741374A4940075FE9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AB97E761374A4940075FE9C /* TCB Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCB Demo-Prefix.pch"; sourceTree = "<group>"; };
+		5AB97E771374A4940075FE9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AB97E7D1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCB_DemoAppDelegate_iPhone.h; path = iPhone/TCB_DemoAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		5AB97E7E1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TCB_DemoAppDelegate_iPhone.m; path = iPhone/TCB_DemoAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		5AB97E811374A4940075FE9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		5AB97E881374A4940075FE9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		5AB97E901374AC510075FE9C /* TitleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleListViewController.h; sourceTree = "<group>"; };
+		5AB97E911374AC510075FE9C /* TitleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleListViewController.m; sourceTree = "<group>"; };
+		5AB97E971374B7A50075FE9C /* TCBSplashScreenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBSplashScreenDelegate.h; sourceTree = "<group>"; };
+		5AB97E981374B8180075FE9C /* TCBSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBSplashScreen.h; sourceTree = "<group>"; };
+		5AB97E991374B8740075FE9C /* TCBSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBSplashScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB97E631374A4940075FE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6179D51374E29E00F95EF0 /* QuartzCore.framework in Frameworks */,
+				5AB97E6B1374A4940075FE9C /* UIKit.framework in Frameworks */,
+				5AB97E6D1374A4940075FE9C /* Foundation.framework in Frameworks */,
+				5AB97E6F1374A4940075FE9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6179DC1374E8FD00F95EF0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A6179DD1374E95500F95EF0 /* TitleListViewController_iPad.h */,
+				5A6179DE1374E95500F95EF0 /* TitleListViewController_iPad.m */,
+				5A6179E01374EEE200F95EF0 /* ProjectDetailViewController.h */,
+				5A6179E11374EEE200F95EF0 /* ProjectDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5AAF1D341374C8E000AB949A /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97E721374A4940075FE9C /* TCB Demo-Info.plist */,
+				5A6179C01374CB7200F95EF0 /* TCBProjectInfo.h */,
+				5A6179C11374CB7200F95EF0 /* TCBProjectInfo.m */,
+				5A6179C41374CCE700F95EF0 /* TCBWebViewControllerDelegate.h */,
+				5A6179C51374CD9E00F95EF0 /* TCBWebViewController.h */,
+				5A6179C61374CD9E00F95EF0 /* TCBWebViewController.m */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		5AB97E5B1374A4940075FE9C = {
+			isa = PBXGroup;
+			children = (
+				5AB97E701374A4940075FE9C /* Splash Screen */,
+				5AB97E7C1374A4940075FE9C /* iPhone */,
+				5AB97E831374A4940075FE9C /* iPad */,
+				5AAF1D341374C8E000AB949A /* shared */,
+				5AB97E711374A4940075FE9C /* Supporting Files */,
+				5AB97E691374A4940075FE9C /* Frameworks */,
+				5AB97E671374A4940075FE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AB97E671374A4940075FE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97E661374A4940075FE9C /* TCB Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB97E691374A4940075FE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A6179D41374E29E00F95EF0 /* QuartzCore.framework */,
+				5AB97E6A1374A4940075FE9C /* UIKit.framework */,
+				5AB97E6C1374A4940075FE9C /* Foundation.framework */,
+				5AB97E6E1374A4940075FE9C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB97E701374A4940075FE9C /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97E971374B7A50075FE9C /* TCBSplashScreenDelegate.h */,
+				5AB97E981374B8180075FE9C /* TCBSplashScreen.h */,
+				5AB97E991374B8740075FE9C /* TCBSplashScreen.m */,
+			);
+			name = "Splash Screen";
+			path = "TCB Demo";
+			sourceTree = "<group>";
+		};
+		5AB97E711374A4940075FE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97E731374A4940075FE9C /* InfoPlist.strings */,
+				5AB97E761374A4940075FE9C /* TCB Demo-Prefix.pch */,
+				5AB97E771374A4940075FE9C /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "TCB Demo";
+			sourceTree = "<group>";
+		};
+		5AB97E7C1374A4940075FE9C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97E951374AC690075FE9C /* View Controllers */,
+				5AB97E7D1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.h */,
+				5AB97E7E1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.m */,
+				5AB97E801374A4940075FE9C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			path = "TCB Demo";
+			sourceTree = "<group>";
+		};
+		5AB97E831374A4940075FE9C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				5A6179DC1374E8FD00F95EF0 /* View Controllers */,
+				5AB97E871374A4940075FE9C /* MainWindow_iPad.xib */,
+				5A6179D61374E69200F95EF0 /* AppDelegate_iPad.h */,
+				5A6179D71374E69200F95EF0 /* AppDelegate_iPad.m */,
+				5A6179D91374E85000F95EF0 /* TCBSplashScreen_iPad.h */,
+				5A6179DA1374E85000F95EF0 /* TCBSplashScreen_iPad.m */,
+			);
+			name = iPad;
+			path = "TCB Demo";
+			sourceTree = "<group>";
+		};
+		5AB97E951374AC690075FE9C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AB97E901374AC510075FE9C /* TitleListViewController.h */,
+				5AB97E911374AC510075FE9C /* TitleListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB97E651374A4940075FE9C /* TCB Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB97E8C1374A4940075FE9C /* Build configuration list for PBXNativeTarget "TCB Demo" */;
+			buildPhases = (
+				5AB97E621374A4940075FE9C /* Sources */,
+				5AB97E631374A4940075FE9C /* Frameworks */,
+				5AB97E641374A4940075FE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCB Demo";
+			productName = "TCB Demo";
+			productReference = 5AB97E661374A4940075FE9C /* TCB Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB97E5D1374A4940075FE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "The Code Boutique";
+			};
+			buildConfigurationList = 5AB97E601374A4940075FE9C /* Build configuration list for PBXProject "TCB Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AB97E5B1374A4940075FE9C;
+			productRefGroup = 5AB97E671374A4940075FE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB97E651374A4940075FE9C /* TCB Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AB97E641374A4940075FE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB97E751374A4940075FE9C /* InfoPlist.strings in Resources */,
+				5AB97E821374A4940075FE9C /* MainWindow_iPhone.xib in Resources */,
+				5AB97E891374A4940075FE9C /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB97E621374A4940075FE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB97E781374A4940075FE9C /* main.m in Sources */,
+				5AB97E7F1374A4940075FE9C /* TCB_DemoAppDelegate_iPhone.m in Sources */,
+				5AB97E931374AC510075FE9C /* TitleListViewController.m in Sources */,
+				5AB97E9A1374B8740075FE9C /* TCBSplashScreen.m in Sources */,
+				5A6179C21374CB7200F95EF0 /* TCBProjectInfo.m in Sources */,
+				5A6179C71374CD9E00F95EF0 /* TCBWebViewController.m in Sources */,
+				5A6179D81374E69200F95EF0 /* AppDelegate_iPad.m in Sources */,
+				5A6179DB1374E85000F95EF0 /* TCBSplashScreen_iPad.m in Sources */,
+				5A6179DF1374E95500F95EF0 /* TitleListViewController_iPad.m in Sources */,
+				5A6179E21374EEE200F95EF0 /* ProjectDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AB97E731374A4940075FE9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB97E741374A4940075FE9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AB97E801374A4940075FE9C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB97E811374A4940075FE9C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5AB97E871374A4940075FE9C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB97E881374A4940075FE9C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AB97E8A1374A4940075FE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AB97E8B1374A4940075FE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AB97E8D1374A4940075FE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCB Demo/TCB Demo-Prefix.pch";
+				INFOPLIST_FILE = "TCB Demo/TCB Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AB97E8E1374A4940075FE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCB Demo/TCB Demo-Prefix.pch";
+				INFOPLIST_FILE = "TCB Demo/TCB Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AB97E601374A4940075FE9C /* Build configuration list for PBXProject "TCB Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB97E8A1374A4940075FE9C /* Debug */,
+				5AB97E8B1374A4940075FE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB97E8C1374A4940075FE9C /* Build configuration list for PBXNativeTarget "TCB Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB97E8D1374A4940075FE9C /* Debug */,
+				5AB97E8E1374A4940075FE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB97E5D1374A4940075FE9C /* Project object */;
+}

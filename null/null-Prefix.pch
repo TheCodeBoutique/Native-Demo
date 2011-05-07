@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'null' target in the 'null' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
